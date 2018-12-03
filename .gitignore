@@ -1,0 +1,5 @@
+#General Settings
+node_modules
+
+#IDE Settings
+.idea
