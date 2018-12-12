@@ -1,0 +1,36 @@
+[{
+  "id": 1,
+  "title": "Frontend Developer",
+  "description": "Comfortable with modern JS stack, experience with React.",
+  "employment_type": "full_time"
+}, {
+  "id": 5,
+  "title": "BI Frontend Engineer",
+  "description": "Comfortable with modern JS stack, experience with React.",
+  "employment_type": "full_time"
+}, {
+  "id": 7,
+  "title": "Frontend Developer",
+  "description": "Comfortable with modern JS stack, experience with React.",
+  "employment_type": "full_time"
+}, {
+  "id": 8,
+  "title": "Frontend Developer",
+  "description": "We are looking for a developer who loves to learn and who wants to build websites and games to teach others. You will work closely with our animation and design team to bring characters to life, and your contribution will add surprise and delight to projects ranging from children’s media to museum installations…and more! Come grow with us.",
+  "employment_type": "full_time"
+}, {
+  "id": 13,
+  "title": "Junior Front-end developer",
+  "description": "As a Front-End Developer, you have the opportunity and responsibility to define how each of our client’s front-end appears online. The ideal candidate is someone who takes pride in their work and performs well in a team - with a love for collaborating with others, but also the ability to tackle a challenge on their own. They have an extensive knowledge of the current e-commerce landscape and an innovative and creative mentality, with the ability to deliver exceptional e-commerce experiences and the confidence to make justified recommendations for creative work. Most importantly, they are passionate about coding with a strong work ethic and an extraordinary attention to detail and precision.",
+  "employment_type": "full_time"
+}, {
+  "id": 26,
+  "title": "Javascript Developer",
+  "description": "Experience with any JS frameworks and libraries: Vue, React, Angular, Ember  - Knowledge data stores, routing, API middlewares and other architectural elements of Web Applications  - Experience interacting with / consuming APIs  - Ability to read / write technical documentation  - Best practices with unit and integration testing  - Understanding on how your code affects performance in the browser and network usage  - Fluent in spoken and written English  - Passion for what you do",
+  "employment_type": "full_time"
+}, {
+  "id": 117,
+  "title": "WebGL Developer",
+  "description": "We’re looking for a creative and experienced WebGL Developer who wants to make an impact. You love to create unique and engaging digital experiences, try new things and hate messy, inextensible code. You help conceptualise and are part of thinking and brainstorming through every phase.",
+  "employment_type": "full_time"
+}]
