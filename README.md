@@ -1,10 +1,8 @@
 ## How can I see it in action?
 
-Just install dependencies, build the app and run the express server:
+execute:
 ```
-$ yarn install
-$ yarn run build
-$ yarn run server
+$ yarn run serve
 ```
 
 # Tecnologies used
