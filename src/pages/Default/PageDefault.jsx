@@ -28,7 +28,6 @@ export default () => (
         <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/styled-components/styled-components">Styled Components</a></li>
         <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/mui-org/material-ui">Material-UI</a></li>
         <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/facebook/create-react-app">Create React App</a></li>
-        <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/ReactTraining/react-router">Styled Components</a></li>
       </ul>
     </div>
 );

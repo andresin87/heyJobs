@@ -1,10 +1,8 @@
 import React, { PureComponent } from 'react'
 import Loader from '../../components/Loader/Loader';
-import { connect } from 'react-redux';
 import fetchHelper from '../../helpers/fetchHelper';
 import styled from 'styled-components';
 
-import { setJobs } from '../../store/appActions';
 import { gettingJobs } from '../../data/connector';
 
 import CardJob from '../../components/CardJob/CardJob';
@@ -29,13 +27,14 @@ class PageJobs extends PureComponent {
     this.renderCards = this.renderCards.bind(this);
   }
   
-  async componentWillMount() {
+  componentWillMount() {
     try {
-      const data = await fetchHelper(gettingJobs, [800],  200);
+      const data = fetchHelper(gettingJobs, [],  200);
       this.props.setJobs(data);
       this.setState({
         status: STATUS.READY,
       });
+      
     } catch (error) {
       this.setState({
         status: STATUS.ERROR,
@@ -73,11 +72,4 @@ PageJobs.defaultProps = {
   jobs: [],
 };
 
-export default connect(
-  (state) => ({
-    jobs: state.app.jobs,
-  }),
-  (dispatch) => ({
-    setJobs: (data) => { dispatch(setJobs(data)); },
-  }),
-)(PageJobs);
+export default PageJobs;

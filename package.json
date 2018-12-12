@@ -8,12 +8,9 @@
     "@material-ui/core": "^3.6.2",
     "babel-plugin-dynamic-import-node": "^2.0.0",
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
-    "enumify": "^1.0.4",
-    "express": "^4.16.4",
-    "extend": "^3.0.2",
+    "express": "^4.16.2",
     "file-loader": "^2.0.0",
     "ignore-styles": "^5.0.1",
-    "material-ui": "^0.20.2",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-helmet": "^5.2.0",
@@ -31,12 +28,14 @@
     "babel-core": "7.0.0-bridge.0"
   },
   "scripts": {
+    "clean": "rm -rf build",
     "install-dependencies": "yarn install --save",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "server": "NODE_ENV=production babel-node --config-file ./.babelrc ./server/bootstrap.js"
+    "server": "NODE_ENV=production node server/bootstrap.js",
+    "serve": "yarn run install-dependencies && yarn run clean && yarn run build && yarn run server"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -46,9 +45,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "devDependencies": {
-    "@babel/node": "^7.2.0",
-    "@babel/preset-env": "^1.7.0"
-  }
+  ]
 }
